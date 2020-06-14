@@ -22,23 +22,22 @@ var usuarios = [];
 usuarios.push(new usuario("veracortez","vera123"));
 usuarios.push(new usuario("josemendez", "jose123"));
 
-
-
-
-
 function gestionUsuarios(){
   
 var cajausu= document.getElementById("cajau").value;
 var cajapass= document.getElementById("cajap").value;
   
-    
- 
-    for(var x=0; x<usuarios.length();x++){
+   
+    alert(usuarios[0].getUsuario);
+    for(var x=0; x<usuarios.length;x++){
 
-        window.alert("dentro de la funcion3" );
+        
+       
+       
         if(usuarios[x].getUsuario.equal(cajausu) && usuarios[x].getPass.equal(cajapass)) 
         {
-            alert("Bienvenida Vera");
+            
+            window.alert("Bienvenida Vera");
         }      
         else if(usuarios[x].getUsuario.equal(cajausu) && usuarios[x].getPass.equal(cajapass)){
                
