@@ -36,14 +36,13 @@ var cajapass= document.getElementById("cajap").value;
     for(var x=0; x<usuarios.length();x++){
 
         window.alert("dentro de la funcion3" );
-        
-       if(usuarios[x].getUsuario.equal("MariaPerez") && usuarios[x].getPass.equal("Mari123")){
+        if(usuarios[x].getUsuario.equal(cajausu) && usuarios[x].getPass.equal(cajapass)) 
+        {
+            alert("Bienvenida Vera");
+        }      
+        else if(usuarios[x].getUsuario.equal(cajausu) && usuarios[x].getPass.equal(cajapass)){
                
-                Console.log("Bienvenida Maria");
-        }
-        else if(usuarios[x].getUsuario.equal("JoseLopez") && usuarios[x].getPass.equal("jose1234")){
-               
-            Console.log("Bienvenido Jose");
+            alert("Bienvenido jose");
 
         }
         else{
