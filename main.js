@@ -30,8 +30,7 @@ var cajapass= document.getElementById("cajap").value;
    
     alert(usuarios[0].getUsuario);
     for(var x=0; x<usuarios.length;x++){
-
-        
+     
        
        
         if(usuarios[x].getUsuario.equal(cajausu) && usuarios[x].getPass.equal(cajapass)) 
